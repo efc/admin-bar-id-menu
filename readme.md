@@ -1,5 +1,6 @@
 # Admin Bar ID Menu
 Contributors: eceleste  
+Donate link: https://eric.clst.org  
 Tags: admin, bar, admin-bar, id  
 Requires at least: 3.1  
 Tested up to: 5.4.2  
@@ -34,6 +35,12 @@ The inclusion of id numbers on the "view" items in the Dashboard only works in W
 ![Admin bar snapshot](screenshot-1.png)
 1. Notice the number next to the edit link in the Admin Bar, that is the page's ID number.
 
+## Changelog
+
+### v.1.1 (2020-06-17)
+* fixed PHP header and readme file (v.1.1.1)
+* no functional changes, just tested and moved to Github
+
 ## Upgrade Notice
 
 ### 1.1.1
@@ -53,5 +60,5 @@ Please update the following files whenever you need to bump the version. Note, a
 * [admin-bar-id-menu.php](admin-bar-id-menu.php) (change the Version in the header, which is the usual WordPress thing to do)
 * [changelog.md](changelog.md) (describe the changes in this version)
 * [readme.txt](readme.txt) (update the Stable tag in the header, replace Changelog with most recent version info)
-* in this file replace the Upgrade Notice
+* in this file replace the Changelog and Upgrade Notice sections
 
