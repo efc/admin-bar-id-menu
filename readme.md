@@ -10,7 +10,7 @@ There are times that you need to know the ID number of a page or post in WordPre
 
 I am maintaining this plugin with git, but WordPress requires SVN for plugins. I am using the [wp-deploy](https://github.com/kasparsd/wp-deploy) scripts to deploy the SVN version.
 
-Note that the WordPress readme file is (readme.txt)[readme.txt].
+Note that the WordPress readme file is [readme.txt](readme.txt).
 
 ## Version Bumps
 
