@@ -1,35 +1,16 @@
 <?php
 /**
  * Plugin Name:       Admin Bar ID Menu
- * Plugin URI:        https://example.com/plugins/the-basics/
- * Description:       Handle the basics with this plugin.
- * Version:           1.1
+ * Plugin URI:        https://github.com/efc/admin-bar-id-menu
+ * Description:       Makes the ID number of the current page or post visible in the Admin Bar.
+ * Version:           1.1.1
  * Requires at least: 3.1
  * Tested up to:      5.4.2
+ * Requires PHP:      5.6
  * Author:            Eric Celeste
  * Author URI:        http://eric.clst.org/
- * License:           GNU Lesser GPL 2.1
- * License URI:       http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt
- */
-/*
-Plugin Name: Admin Bar ID Menu
-Plugin URI: http://www.tenseg.net/software/adminbarid
-Description: Makes the ID number of the current page or post visible in the Admin Bar.
-Version: 1.0
-Author: Eric Celeste
-Author URI: http://eric.clst.org/
-License: GNU Lesser GPL 2.1 (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt)
- */
-
-/*
-History:
-v.1.0: 121212 (efc) made "view" menus show numbers too
-v.0.4: 111216 (efc) added compatibility for new admin bar in 3.3
-v.0.3: 110224 (efc) moved the id into the edit item
-appending $wp_admin_bar->menu->edit['title']
-v.0.2: 110224 (efc) moved to a plugin
-using the $wp_admin_bar->add_menu method
-v.0.1: 110224 (efc) implemented in theme
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 /*
